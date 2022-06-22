@@ -1,0 +1,96 @@
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+
+#pop{
+    background-color: rgba(255, 0, 0, 0.398);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 3rem ;
+}
+
+.inner-container{
+    margin: 0 2rem;
+}
+
+.header-title{
+    text-decoration:none ;
+    font-size: larger;
+    color: navy ;
+    font-weight:bold;
+}
+
+.header-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.header-nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li {
+    list-style: none;
+}
+
+.header-nav li a {
+    text-decoration: none;
+    color: navy;
+    font-weight:300 ;
+    padding: 1rem;
+  
+}
+
+.header-nav li a:hover, .header-title:hover{
+    color: white;
+}
+
+
+
+.page-header{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-primary{
+    color: brown;
+    background-color: blue;
+    
+}
+
+.btn-danger{
+    color:black ;
+    background-color:red ;
+}
+.btn-row > *{
+    margin-left: 1rem;
+}
+.btn-row>*:first-child {
+    margin-left: 0;
+}
+
+.btn-row{
+    display: flex;
+    align-items: flex-start;
+}
