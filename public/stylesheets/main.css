@@ -94,3 +94,86 @@
     display: flex;
     align-items: flex-start;
 }
+
+.form-row{
+    display: flex;
+    margin-bottom: .5rem;
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+
+.form-item:first-child{
+    margin-left: 0;
+}
+
+.form-item-no-grow{
+    flex-grow: 0;
+}
+.form-row-end {
+    justify-content: flex-end;
+}
+
+.form-item > label{
+    font-size: 1.2rem;
+    margin-bottom: .25rem;
+    margin-left: .25rem;
+}
+
+.form-item input, .form-item select, .form-item textarea{
+    height: 2rem;
+    padding: .25rem .5rem;
+    border-radius: .25rem;
+    border: 1px solid blue;
+    background-color: white;
+    color: lightblue;
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    outline: none;
+}
+
+.form-item input, .form-item select, .form-item textarea{
+    height: 2rem;
+    padding: .25rem .5rem;
+    border-radius: .25rem;
+    border: 1px solid blue;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    outline: none;
+}
+
+
+.form-item textarea{
+    height: 100%;
+    resize: none;
+}
+
+.form-item select option{
+    background-color:palevioletred ;
+}
+
+
+.form-item input:focus,
+.form-item select:focus,
+.form-item textarea:focus {
+    border-color:antiquewhite
+}
+
+.filepond{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+    background-color: aqua;
+    border: 1px solid blue;
+    color: lightblue;
+    font-size: inherit;
+}
